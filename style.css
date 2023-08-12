@@ -1,0 +1,24 @@
+.menu {
+  background-color: cadetblue;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+.menu a {
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+}
+.menu a:hover {
+  background-color: brown;
+}
+@media screen and (max-width: 700px) {
+  .menu {
+    flex-direction: column;
+  }
+}
+.menu a {
+  margin: 10px 0;
+  background-color: green;
+  text-align: center;
+}
